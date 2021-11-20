@@ -28,7 +28,7 @@ function mping(){
 	echo "提示：测试过程需要25-30分钟，请耐心等待..."
 	echo '---------------------------------------------------------------------------'
 
-	while(( $num<10 ))
+	while(( $num<4 ))
 	do
 		ping ${dnsip[$num]} -c $pnum > /tmp/${dnsip[$num]}.txt
 		echo 【${location[$num]}】 - ${dnsip[$num]}
