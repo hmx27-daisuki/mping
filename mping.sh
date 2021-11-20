@@ -1,27 +1,23 @@
 #!/bin/bash
 #####		一键Ping测试			#####
 #####		Author:xiaoz.me			#####
-#####		Update:2019-06-03		#####
+#####		Forked:hmx27-daisuki		#####
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin
 export PATH
-
-#获取服务器公网IP
-osip=$(curl https://api.ttt.sh/ip/qqwry/?type=txt)
 
 location=(
 		'广州 电信'
 		'广州 联通'
 		'广州 移动'
 	)
-#各地区DNS，来源于http://dns.lisect.com/ and https://www.ip.cn/dns.html
+#各地区DNS，来源于网上收集
 dnsip=(
 	'202.96.128.166'	#广州 电信
 	'221.5.88.88'		#广州 联通
 	'211.136.20.203'	#广州 移动
 )
 echo '---------------------------------------------------------------------------'
-echo "您的本机IP为：[$osip]"
 function mping(){
 	num=0
 	#Ping次数
@@ -80,9 +76,9 @@ function moretrace(){
 	echo '---------------------------------------------------------------------------'
 }
 
-mping 50
+mping 500
 echo ''
 moretrace
 echo ''
-echo '此结果由mping生成:https://www.xiaoz.me/archives/13044'
+echo '原作者帖子:https://www.xiaoz.me/archives/13044'
 echo ''
