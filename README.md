@@ -6,9 +6,9 @@ wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/mping.sh （�
 
 bash mping.sh （下载文件后可重复运行）
 ```
-### 运行报错请先运行以下命令（手动复制）
+### 运行报错请先运行以下命令（手动复制,文件未更新之前仅运行一次）
 ```bash
-wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/tracert.sh && bash tracert.sh （仅运行一次）
+wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/tracert.sh && bash tracert.sh 
 ```
 
 ### 删除旧版本的mping.sh和tracert.sh文件
