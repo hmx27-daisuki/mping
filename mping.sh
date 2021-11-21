@@ -48,10 +48,10 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
-	#若提示报错,运行 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/besttrace.sh 安装必要文件
 	
 	echo '---------------------------------------------------------------------------'
 	echo '正在测试回程路由...'
+	echo '若提示报错,运行 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/besttrace.sh 安装必要文件'
 	echo '---------------------------------------------------------------------------'
 	echo '【广州电信】 - 121.8.132.65'
 	echo ''
