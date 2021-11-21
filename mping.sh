@@ -48,7 +48,6 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
-	
 	echo '---------------------------------------------------------------------------'
 	echo '正在测试回程路由...'
 	echo '若提示 No such file or directory 报错'
