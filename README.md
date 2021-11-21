@@ -4,7 +4,7 @@
 ```bash
 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/mping.sh （仅运行一次）
 
-bash mping.sh
+bash mping.sh （下载文件后可重复运行）
 ```
 ### 如果运行时内容没有变动，运行以下命令尝试删除旧mping.sh
 ```bash
