@@ -53,7 +53,7 @@ function moretrace(){
 	echo '正在测试回程路由...'
 	echo '若提示 No such file or directory 报错'
 	echo '请运行 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/tracert.sh && bash tracert.sh 安装必要文件'
-	echo '执行完成后再次运行 bash mping.sh 就不会报错'
+	echo '安装完成后再次运行 bash mping.sh 就不会报错'
 	echo '---------------------------------------------------------------------------'
 	echo '【广州电信】 - 121.8.132.65'
 	echo ''
