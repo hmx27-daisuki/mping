@@ -1,6 +1,6 @@
 # mping
 
-mping可以从本机对国内服务器发起ping、路由跟踪测试
+mping可以从本机对国内服务器发起ping、路由跟踪测试（此介绍为原作者文档）
 
 ### 使用方法
 
@@ -133,11 +133,3 @@ traceroute to 211.138.180.2 (211.138.180.2), 30 hops max, 60 byte packets
 
 此结果由mping生成:https://github.com/helloxz/mping
 ```
-
-### 请我喝一杯咖啡
-![](https://i.bmp.ovh/imgs/2019/03/cb349aa4a1b95997.png)
-
-### 联系我
-* Blog：[https://www.xiaoz.me/](https://www.xiaoz.me/)
-* 社区支持：[https://ttt.sh/](https://ttt.sh/)
-* QQ:337003006
