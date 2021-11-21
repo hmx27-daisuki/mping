@@ -47,10 +47,10 @@ function mping(){
 }
 
 function moretrace(){
-	#检查testtrace是否存在
-	if [ ! -f "./testtrace" ]
-	then
-		#下载testtrace
+	#下载testtrace
+		rm -f testrace.sh
+		rm -f testrace.sh.1
+		rm -f testrace.sh.2
 		wget -q https://raw.githubusercontent.com/hijkpw/testrace/master/testrace.sh
 		#添加执行权限
 		chmod +x ./testrace.sh
