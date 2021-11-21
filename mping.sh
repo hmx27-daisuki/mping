@@ -48,11 +48,10 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
-	rm besttrace4linux.zip && rm besttrace4linux.zip.1 && && rm besttrace4linux.zip.2
-	rm besttrace.1 && rm besttrace.2
-	
 	apt install unzip -y
 	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+	rm besttrace.1 && rm besttrace.2
+	rm besttrace4linux.zip.1 && rm besttrace4linux.zip.2
 	unzip besttrace4linux.zip -d besttrace && rm besttrace4linux.zip
 	chmod -R +x /root/besttrace/besttrace
 	
