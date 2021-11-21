@@ -16,8 +16,7 @@ wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/tracert.sh && 
 rm mping.sh && rm mping.sh.1 && rm mping.sh.2 && rm mping.sh.3
 ```
 
-### 删除besttrace文件（多次运行wget时使用）
+### 删除besttrace安装包文件（多次运行wget时使用）
 ```bash
-rm besttrace && rm besttrace.1 && rm besttrace.2
 rm besttrace4linux.zip && rm besttrace4linux.zip.1 && rm besttrace4linux.zip.2
 ```
