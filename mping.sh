@@ -48,9 +48,10 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
-	rm -f ./besttrace
-	wget -O besttrace.zip https://cdn.ipip.net/17mon/besttrace4linux.zip && unzip besttrace.zip -d besttrace && rm besttrace.zip
-	chmod -R +x ./besttrace
+	#rm -f ./besttrace
+	#apt install unzip -y
+	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+	#chmod -R +x ./besttrace
 	
 	echo '---------------------------------------------------------------------------'
 	echo '正在测试回程路由...'
