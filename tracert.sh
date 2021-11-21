@@ -1,5 +1,6 @@
-#删除旧版本的mping.sh文件
+#删除旧版本的mping.sh和文件
 rm mping.sh && rm mping.sh.1 && rm mping.sh.2 && rm mping.sh.3
+rm tracert.sh && rm tracert.sh.1 && rm tracert.sh.2 && rm tracert.sh.3
 
 #删除多出来的besttrace文件
 rm besttrace && besttrace.1 && rm besttrace.2
