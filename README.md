@@ -21,6 +21,6 @@ rm tracert.sh && rm tracert.sh.1 && rm tracert.sh.2 && rm tracert.sh.3
 
 ### 删除多出来的besttrace文件
 ```bash
-rm besttrace && besttrace.1 && rm besttrace.2
-rm besttrace4linux.zip && besttrace4linux.zip.1 && rm besttrace4linux.zip.2
+rm besttrace && rm besttrace.1 && rm besttrace.2
+rm besttrace4linux.zip && rm besttrace4linux.zip.1 && rm besttrace4linux.zip.2
 ```
