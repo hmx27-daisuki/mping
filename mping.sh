@@ -48,9 +48,11 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
-	mkdir besttrace && cd besttrace
+	#mkdir besttrace && cd besttrace
 	apt install unzip -y
-	wget https://cdn.ipip.net/17mon/besttrace4linux.zip && unzip besttrace4linux.zip && rm besttrace4linux.zip
+	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+	unzip besttrace.zip -d besttrace
+	rm besttrace4linux.zip
 	chmod -R +x besttrace
 	
 	echo '---------------------------------------------------------------------------'
@@ -58,12 +60,12 @@ function moretrace(){
 	echo '---------------------------------------------------------------------------'
 	echo '【广州电信】 - 121.8.132.65'
 	echo ''
-	./root/besttrace -q 1 121.8.132.65
+	/root/besttrace/besttrace -q 1 183.233.56.165
 	echo '---------------------------------------------------------------------------'
 
 	echo '【广州移动】 - 183.233.56.165'
 	echo ''
-	./root/besttrace -q 1 183.233.56.165
+	/root/besttrace/besttrace -q 1 183.233.56.165
 	echo '---------------------------------------------------------------------------'
 	cd /root
 }
