@@ -47,13 +47,13 @@ function mping(){
 }
 
 function moretrace(){
-	#下载testtrace
-		rm -f testrace.sh
-		rm -f testrace.sh.1
-		rm -f testrace.sh.2
-		wget -q https://raw.githubusercontent.com/hijkpw/testrace/master/testrace.sh
+	#检查besttrace是否存在
+	if [ ! -f "./besttrace" ]
+	then
+		#下载besttrace
+		wget -q http://soft.xiaoz.org/linux/besttrace
 		#添加执行权限
-		chmod +x ./testrace.sh
+		chmod +x ./besttrace
 	fi
 
 	#进行路由跟踪
@@ -62,12 +62,12 @@ function moretrace(){
 	echo '---------------------------------------------------------------------------'
 	echo '【广州电信】 - 121.8.132.65'
 	echo ''
-	./testtrace -q 1 121.8.132.65
+	./besttrace -q 1 121.8.132.65
 	echo '---------------------------------------------------------------------------'
 
 	echo '【广州移动】 - 183.233.56.165'
 	echo ''
-	./testtrace -q 1 183.233.56.165
+	./besttrace -q 1 183.233.56.165
 	echo '---------------------------------------------------------------------------'
 }
 
