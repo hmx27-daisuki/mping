@@ -10,3 +10,7 @@ chmod -R +x /root/besttrace/besttrace
 
 #删除tracert.sh（目的是要安装besttrace,安装之后就不需要再次执行tracert.sh）
 rm tracert.sh
+
+echo ''
+echo '请再次运行 bash mping.sh'
+echo ''
