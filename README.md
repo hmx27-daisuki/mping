@@ -1,6 +1,11 @@
 # mping
 
-mping可以从本机对国内服务器发起ping、路由跟踪测试（此介绍为原作者文档）
+### 本人制作的mping命令
+```bash
+wget https://raw.githubusercontent.com/helloxz/mping/master/mping.sh && bash mping.sh
+```
+
+mping可以从本机对国内服务器发起ping、路由跟踪测试（下面介绍为原作者文档）
 
 ### 使用方法
 
