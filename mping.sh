@@ -48,6 +48,7 @@ function mping(){
 
 function moretrace(){
 	#进行路由跟踪
+	rm besttrace4linux.zip && rm besttrace4linux.zip.1 && && rm besttrace4linux.zip.2
 	apt install unzip -y
 	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
 	unzip besttrace4linux.zip -d besttrace && rm besttrace4linux.zip
@@ -72,5 +73,6 @@ mping 1500
 echo ''
 moretrace
 echo ''
-echo '原作者帖子:https://www.xiaoz.me/archives/13044'
+echo '引用github代码1:https://github.com/helloxz/mping'
+echo '引用github代码2:https://github.com/hijkpw/testrace'
 echo ''
