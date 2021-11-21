@@ -1,6 +1,6 @@
 # mping
 
-### 本人制作的mping命令（手动复制）
+### 本人制作的mping命令,强烈建议fork一份mping以达到diy测试的需求（手动复制）
 ```bash
 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/mping.sh （仅运行一次）
 
