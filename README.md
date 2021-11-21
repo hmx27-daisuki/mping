@@ -2,9 +2,14 @@
 
 ### 本人制作的mping命令
 ```bash
-wget https://raw.githubusercontent.com/helloxz/mping/master/mping.sh && bash mping.sh
-```
+wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/mping.sh （仅运行一次）
 
+bash mping.sh
+```
+### 如果运行时内容没有变动，运行以下命令尝试删除旧mping.sh
+```bash
+rm mping.sh && rm mping.sh.1 && rm mping.sh.2 && rm mping.sh.3
+```
 
 mping可以从本机对国内服务器发起ping、路由跟踪测试（下面介绍为原作者文档）
 
