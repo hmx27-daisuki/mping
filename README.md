@@ -11,12 +11,12 @@ bash mping.sh （下载文件后可重复运行）
 wget https://raw.githubusercontent.com/hmx27-daisuki/mping/master/tracert.sh && bash tracert.sh 
 ```
 
-### 删除旧版本的mping.sh和tracert.sh文件
+### 删除mping.sh文件（多次运行wget时使用）
 ```bash
 rm mping.sh && rm mping.sh.1 && rm mping.sh.2 && rm mping.sh.3
 ```
 
-### 删除多出来的besttrace文件
+### 删除besttrace文件（多次运行wget时使用）
 ```bash
 rm besttrace && rm besttrace.1 && rm besttrace.2
 rm besttrace4linux.zip && rm besttrace4linux.zip.1 && rm besttrace4linux.zip.2
