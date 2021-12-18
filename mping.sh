@@ -9,11 +9,14 @@ export PATH
 location=(
 		'广州电信'
 		'广州移动'
+		'广州联通'
 	 )
 #去程/回程ip收集(finalshell软件对单一vps使用路由追踪可找到)
 dnsip=(
 	'121.8.132.65' 		#广州电信
 	'183.233.56.165' 	#广州移动
+	'120.80.120.57' 	#广州联通
+
 )
 echo '---------------------------------------------------------------------------'
 function mping(){
@@ -27,7 +30,7 @@ function mping(){
 	echo '---------------------------------------------------------------------------'
 
 	#测试ip个数
-	while(( $num<2 ))
+	while(( $num<3 ))
 	do
 		ping ${dnsip[$num]} -c $pnum > /tmp/${dnsip[$num]}.txt
 		echo 【${location[$num]}】 - ${dnsip[$num]}
@@ -63,10 +66,15 @@ function moretrace(){
 	echo ''
 	/root/besttrace/besttrace -q 1 183.233.56.165
 	echo '---------------------------------------------------------------------------'
+	
+	echo '【广州联通】 - 120.80.120.57'
+	echo ''
+	/root/besttrace/besttrace -q 1 120.80.120.57
+	echo '---------------------------------------------------------------------------'
 	cd /root
 }
 
-mping 1500
+mping 1000
 echo ''
 moretrace
 echo ''
